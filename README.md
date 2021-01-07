@@ -7,7 +7,7 @@ The dataset used to create the model is called **Bank Marketing Data Set** and c
 
 It contains 20 input variables related to bank client, last contact information, social and economic attributes and other attributes. The goal is to predict if the client will subscribe a term deposit with the bank. More details can be find at [this link](https://archive.ics.uci.edu/ml/datasets/Bank%20Marketing#).
 
-The best performance model was a VotingEnsemble obtained with the execution of AutoML which resulted in 0.9176 of accuracy.
+The best performance model was a VotingEnsemble obtained with the execution of AutoML which resulted in 0.94661 of accuracy.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
