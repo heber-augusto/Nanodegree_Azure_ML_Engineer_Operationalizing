@@ -1,0 +1,170 @@
+PS C:\Users\demouser\Downloads\Nanodegree_Azure_ML_Engineer_Operationalizing\benchmark> ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer E5OtRPIlXb62SfeDfQRKfJSNI0916rEG' http://50a55a83-78d1-4926-8d08-e612ee31b080.southcentralus.azurecontainer.io/score
+This is ApacheBench, Version 2.3 <$Revision: 1879490 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 50a55a83-78d1-4926-8d08-e612ee31b080.southcentralus.azurecontainer.io (be patient)...INFO: POST header ==
+---
+POST /score HTTP/1.0
+Content-length: 812
+Content-type: application/json
+Authorization: Bearer E5OtRPIlXb62SfeDfQRKfJSNI0916rEG
+Host: 50a55a83-78d1-4926-8d08-e612ee31b080.southcentralus.azurecontainer.io
+User-Agent: ApacheBench/2.3
+Accept: */*
+
+
+---
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:30 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: b6711d0a-36cf-404f-bf7d-8838af83f3b1
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:30 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 63531d1d-d54c-438b-bb2d-1ccee8304ebb
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:30 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: ef3907d7-d896-4bb9-8fb7-bd3ed960f228
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:30 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 0e48caa5-4434-4251-9f40-ca350f8db7db
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:31 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 30fb3b30-daf2-4fbf-884f-2374e587b5fa
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:31 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 4df3886c-f9d3-40b2-b517-906f98e02cc3
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:31 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 72372a33-8e44-4754-aa67-df1291689876
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:31 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: e6a2f414-b618-4ddb-8cf4-046509ea899f
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:32 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 9892de94-fc63-453f-84bd-749bdf5a7578
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+LOG: header received:
+HTTP/1.0 200 OK
+Content-Length: 32
+Content-Type: application/json
+Date: Thu, 07 Jan 2021 02:15:32 GMT
+Server: nginx/1.10.3 (Ubuntu)
+X-Ms-Request-Id: 69c1001a-287a-4888-b585-a892d7dce820
+X-Ms-Run-Function-Failed: False
+
+"{\"result\": [\"no\", \"no\"]}"
+LOG: Response code = 200
+..done
+
+
+Server Software:        nginx/1.10.3
+Server Hostname:        50a55a83-78d1-4926-8d08-e612ee31b080.southcentralus.azurecontainer.io
+Server Port:            80
+
+Document Path:          /score
+Document Length:        32 bytes
+
+Concurrency Level:      1
+Time taken for tests:   2.349 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      2590 bytes
+Total body sent:        10640
+HTML transferred:       320 bytes
+Requests per second:    4.26 [#/sec] (mean)
+Time per request:       234.879 [ms] (mean)
+Time per request:       234.879 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.08 [Kbytes/sec] received
+                        4.42 kb/s sent
+                        5.50 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        2    3   1.0      4       5
+Processing:    91  231  53.9    254     271
+Waiting:       89  228  53.4    253     267
+Total:         95  235  53.5    257     274
+WARNING: The median and mean for the initial connection time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%    257
+  66%    266
+  75%    270
+  80%    273
+  90%    274
+  95%    274
+  98%    274
+  99%    274
+ 100%    274 (longest request)
