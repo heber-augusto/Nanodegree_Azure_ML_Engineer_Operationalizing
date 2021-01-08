@@ -24,7 +24,7 @@ A Computer Instance was created and used to execute a notebook. This notebook us
 
 ## Key Steps
 
-The following image and sections demonstrates all key steps executed during this project:
+The following image and sections demonstrates all key steps executed during this project. Most of the steps were executed using the ![notebook](/udacity-project.ipynb):
 
 ![Key Steps](/docs/key_steps_project2.png?raw=true "Key Steps from the project")
 
@@ -42,7 +42,10 @@ The first thing necessary to start this step was to create the dataset and the
 5. Swagger Documentation:
 6. Consume model endpoints:
 7. Benchmark endpoint:
+
 8. Create and publish a pipeline:
+
+At the end of the project, the pipeline used to run the AutoML Experiment was used to 
 
 ## Screen Recording
 
