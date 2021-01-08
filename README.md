@@ -28,9 +28,11 @@ The following image and sections demonstrates all key steps executed during this
 
 ![Key Steps](/docs/key_steps_project2.png?raw=true "Key Steps from the project")
 
+
 1. Authentication (Optional): 
 
 This step involves creating a Service Principal account and associate it with your specific workspace. This was not necessing because Udacity lab was used during the entire project development.
+
 
 2. Automated ML Experiment:
 
@@ -44,6 +46,7 @@ After these first creations, a pipeline to execute AutoML Experiment was created
 
 ![AutoML Completed](/docs/automl_pipeline_completed.png?raw=true "AutoML Completed")
 
+
 3. Deploy the best model:
 When the AutoML Experiment completed, the best model was checked using the [notebook](/udacity-project.ipynb) and Azure MAchine Learning Studio. Using the "Deploy" button, the best model was deployed (yes, it is that simple).
 
@@ -56,13 +59,26 @@ The images bellow shows the status from the model after pressing Deploy Button:
 
 4. Enable logging:
 
+Both [notebook](/udacity-project.ipynb) and [logs.py script](/logs.py) were used to enable and print logs as showed in the image bellow:
+
+![logs.py running results](/docs/logs_py_results.png?raw=true "logs.py running results").
+
+The option "Enable app insight" could be confirmed accessing the model details as showed by the following image:
+
+![Best model with enabled app insights](/docs/best_model_with_app_insights.png?raw=true "Best model with enabled app insights").
 
 
 5. Swagger Documentation:
 
 6. Consume model endpoints:
 
+
+
 7. Benchmark endpoint:
+
+After the best model was deployed and tested using [endpoint.py python script](endpoint.py), the apache benchmark tool was used to evaluate the healthy and performance from the model. The following image and the file [/benchmark/benchmark-output.txt] demonstrates output from the tool execution.
+
+![Apache benchmark tool](/docs/apache-benchmark-output.png?raw=true "Apache benchmark tool")
 
 8. Create and publish a pipeline:
 
