@@ -16,16 +16,21 @@ The best performance model was a VotingEnsemble obtained with the execution of A
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
-
-
-## Key Steps
-
 The following image and the following sections demonstrates all key steps executed during this project:
 
 ![Key Steps](/docs/key_steps_project2.png?raw=true "Key Steps from the project")
 
-1. Authentication (Optional):
+## Key Steps
+
+1. Authentication (Optional): 
+
+This step involves creating a Service Principal account and associate it with your specific workspace. This was not necessing because Udacity lab was used during the entire project development.
+
 2. Automated ML Experiment:
+
+The first thing necessary to start this step was to create the dataset and the 
+
+
 3. Deploy the best model:
 4. Enable logging:
 5. Swagger Documentation:
