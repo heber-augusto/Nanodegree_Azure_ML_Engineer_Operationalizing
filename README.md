@@ -67,6 +67,9 @@ The option "Enable app insight" could be confirmed accessing the model details a
 
 ![Best model with enabled app insights](/docs/best_model_with_app_insights.png?raw=true "Best model with enabled app insights").
 
+The [logs.py script](/logs.py) used [config.json file](/config.json) which was create using Azure MAchine Learning Studio, as showed by the following image:
+
+![Saving config json](/docs/saving_config_json.png?raw=true "Saving config json").
 
 5. Swagger Documentation:
 
@@ -77,7 +80,9 @@ From the deployed model it is possible to generate a swagger documentation. This
 
 6. Consume model endpoints:
 
+The best model endpoint was tested using the [endpoint.py python script](endpoint.py) which gave results showed by the following image:
 
+![Consuming endpoint](/docs/running_endpoint_py.png?raw=true "Consuming endpoint").
 
 
 7. Benchmark endpoint:
@@ -95,11 +100,15 @@ At the end of the project, the pipeline used to run the AutoML Experiment was us
 
 ![Pipeline after deployment completition](/docs/pipeline_endpoint_2.png?raw=true "Pipeline after deployment completition")
 
+
+
 ## Screen Recording
 
 The following video demonstrates the model and pipeline deployment process and the model endpoint test:
 
 [![Video demonstrating the deployed model](https://img.youtube.com/vi/8Wsxr50wCiw/0.jpg?raw=true)](https://www.youtube.com/watch?v=8Wsxr50wCiw)
+
+
 
 ## Standout Suggestions
 
