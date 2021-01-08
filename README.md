@@ -22,7 +22,7 @@ The best performance model was a VotingEnsemble obtained with the execution of A
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
-[![Video demonstrating the deployed model](https://img.youtube.com/vi/8Wsxr50wCiw/0.jpg)](https://www.youtube.com/watch?v=8Wsxr50wCiw)
+[![Video demonstrating the deployed model](https://img.youtube.com/vi/8Wsxr50wCiw/0.jpg?raw=true)](https://www.youtube.com/watch?v=8Wsxr50wCiw)
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
