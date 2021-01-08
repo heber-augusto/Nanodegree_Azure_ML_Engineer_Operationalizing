@@ -110,5 +110,6 @@ The following video demonstrates the model and pipeline deployment process and t
 
 
 
-## Standout Suggestions
+## Possible Improvements
 
+A possible improvment to the project could be done adding parameters to the AutoML pipeline. This could increase flexibility for pipeline use or set some different running options to achieve better results.
