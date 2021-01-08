@@ -24,7 +24,7 @@ A Computer Instance was created and used to execute a notebook. This notebook us
 
 ## Key Steps
 
-The following image and sections demonstrates all key steps executed during this project. Most of the steps were executed using the ![notebook](/udacity-project.ipynb):
+The following image and sections demonstrates all key steps executed during this project. Most of the steps were executed using the [notebook](/udacity-project.ipynb):
 
 ![Key Steps](/docs/key_steps_project2.png?raw=true "Key Steps from the project")
 
@@ -34,18 +34,43 @@ This step involves creating a Service Principal account and associate it with yo
 
 2. Automated ML Experiment:
 
-The first thing necessary to start this step was to create the dataset and the 
+The first thing necessary to start this step was to create a experiment, register the dataset and create a computer cluster to run AutoML Experiment. The initial cells from the [notebook](/udacity-project.ipynb) and the images bellow demonstrates this process:
 
+![Registered Dataset](/docs/registered_dataset.png?raw=true "Registered Dataset")
+
+After these first creations, a pipeline to execute AutoML Experiment was created using the notebook. Some cell from the [notebook](/udacity-project.ipynb) and images bellow shows the running process and the results from it.
+
+![AutoML Running](/docs/automl_pipeline_running.png?raw=true "AutoML Running")
+
+![AutoML Completed](/docs/automl_pipeline_completed.png?raw=true "AutoML Completed")
 
 3. Deploy the best model:
+When the AutoML Experiment completed, the best model was checked using the [notebook](/udacity-project.ipynb) and Azure MAchine Learning Studio. Using the "Deploy" button, the best model was deployed (yes, it is that simple).
+
+The images bellow shows the status from the model after pressing Deploy Button:
+
+![Model deployment after Deploy Button Pressed](/docs/deploying_best_model.png?raw=true "Model deployment after Deploy Button Pressed")
+
+![Model deployment process](/docs/deploying_best_model_2.png?raw=true "Model deployment process")
+
+
 4. Enable logging:
+
+
+
 5. Swagger Documentation:
+
 6. Consume model endpoints:
+
 7. Benchmark endpoint:
 
 8. Create and publish a pipeline:
 
-At the end of the project, the pipeline used to run the AutoML Experiment was used to 
+At the end of the project, the pipeline used to run the AutoML Experiment was used to pubish a pipeline. This publish operation was done using the [notebook](/udacity-project.ipynb) and its result is demonstrated by the following images:
+
+![Pipeline after deployment completition](/docs/pipeline_endpoint.png?raw=true "Pipeline after deployment completition")
+
+![Pipeline after deployment completition](/docs/pipeline_endpoint_2.png?raw=true "Pipeline after deployment completition")
 
 ## Screen Recording
 
