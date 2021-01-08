@@ -14,13 +14,19 @@ The best performance model was a VotingEnsemble obtained with the execution of A
 ![Best AutoML models](/docs/automl_pipeline_models.png?raw=true "AutoML models")
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
-The following image and the following sections demonstrates all key steps executed during this project:
+The following image demonstrate tools and Azure product used during this project:
 
-![Key Steps](/docs/key_steps_project2.png?raw=true "Key Steps from the project")
+![Architectural Diagram](/docs/architectural-diagram.png?raw=true "Architectural Diagram from the project")
+
+A Computer Instance was created and used to execute a notebook. This notebook uses azure sdk to create and manipulate computer clusters, experiments, models and other contents. At least other three external tools (Python, docker and Apache Benchmark) are used to generate end point documentation, to test and evaluate deployed models use.
+
 
 ## Key Steps
+
+The following image and sections demonstrates all key steps executed during this project:
+
+![Key Steps](/docs/key_steps_project2.png?raw=true "Key Steps from the project")
 
 1. Authentication (Optional): 
 
