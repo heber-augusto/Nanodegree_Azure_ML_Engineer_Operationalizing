@@ -87,7 +87,7 @@ The best model endpoint was tested using the [endpoint.py python script](endpoin
 
 7. Benchmark endpoint:
 
-After the best model was deployed and tested using [endpoint.py python script](endpoint.py), the apache benchmark tool was used to evaluate the healthy and performance from the model. The following image and the file [/benchmark/benchmark-output.txt] demonstrates output from the tool execution.
+After the best model was deployed and tested using [endpoint.py python script](endpoint.py), the apache benchmark tool was used to evaluate the healthy and performance from the model. The following image and the [benchmark-output.txt file](/benchmark/benchmark-output.txt) demonstrates output from the tool execution.
 
 ![Apache benchmark tool](/docs/apache-benchmark-output.png?raw=true "Apache benchmark tool")
 
