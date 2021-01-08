@@ -70,7 +70,13 @@ The option "Enable app insight" could be confirmed accessing the model details a
 
 5. Swagger Documentation:
 
+From the deployed model it is possible to generate a swagger documentation. This helps client applications from the endpoint to understand on how to use urls to access and receive results to sent payload. The swagger documentation was created and viewed using docker and [serve.py script](/swagger/serve.py). The image bellows shows the swagger docker image running, [serve.py script](/swagger/serve.py) running to serve [swagger.json](/swagger/swagger.json) static file and Swagger UI showing the content.
+
+![Swagger Documentation](/docs/swagger-documentation.png?raw=true "Swagger Documentation").
+
+
 6. Consume model endpoints:
+
 
 
 
@@ -79,6 +85,7 @@ The option "Enable app insight" could be confirmed accessing the model details a
 After the best model was deployed and tested using [endpoint.py python script](endpoint.py), the apache benchmark tool was used to evaluate the healthy and performance from the model. The following image and the file [/benchmark/benchmark-output.txt] demonstrates output from the tool execution.
 
 ![Apache benchmark tool](/docs/apache-benchmark-output.png?raw=true "Apache benchmark tool")
+
 
 8. Create and publish a pipeline:
 
